@@ -15,6 +15,26 @@ Ensuite, lancer le jar avec la commande : `java -jar build/libs/covid-api-0.0.1-
 
 Pour tester l'api, aller sur http://localhost:8080/api/center/getAll
 
+Le résultat devrait être :
+
+```json
+[
+    {
+        "id":1,
+        "nom":"Hopital Central",
+        "adresse":"12 rue de la Paix",
+        "codePostal":"57000",
+        "ville":"Metz"
+    },
+    {
+        "id":2,
+        "nom":"Centre hospitalier",
+        "adresse":"21 rue de la Republique",
+        "codePostal":"54000",
+        "ville":"Nancy"
+    }
+]
+```
 ## Partie 2 : déploiement dans un conteneur local
 
 Pour construire l'image et lancer le conteneur, lancer la commande : `docker compose up --build`
@@ -32,3 +52,18 @@ Vous devez également avoir créé un compte sur dockerhub et avoir créé un re
 ### Lancement
 
 Créez un nouveau job de type pipeline et copiez le contenu du fichier Jenkinsfile dans le champ Pipeline
+
+Vous devrez également changer le nom du repository dans le Jenkinsfile
+
+Lien de mon dockerhub : https://hub.docker.com/r/nifr3d/mep2
+
+# Auteurs
+
+## TD de mise en production 2 :
+
+- [Frédéric WAGNER]
+  
+## Back-end :
+
+- [Frédéric WAGNER]
+- [Thibault REY]
