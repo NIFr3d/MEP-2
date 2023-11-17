@@ -55,7 +55,7 @@ Vous devez également avoir créé un compte sur dockerhub et avoir créé un re
 
 Créez un nouveau job de type pipeline et copiez le contenu du fichier Jenkinsfile dans le champ Pipeline
 
-Vous devrez également changer le nom du repository dans le Jenkinsfile
+Vous devrez également changer le nom du repository et l'username dans le Jenkinsfile pour qu'ils correspondent à vos informations 
 
 Lien de mon dockerhub : https://hub.docker.com/r/nifr3d/mep2
 
