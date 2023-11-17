@@ -45,7 +45,9 @@ Comme précédemment, pour tester, aller sur http://localhost:8080/api/center/ge
 
 ### Prérequis
 
-Vous devez avoir installé docker dans Jenkins depuis Dashboard > Global Tool Configuration > Docker et lui donner l'ID `docker`
+Vous devez avoir installé docker dans Jenkins depuis Dashboard > Manage Jenkins > Global Tool Configuration > Docker et lui donner l'ID `docker`
+
+Vous devez également installer le plugin docker dans Jenkins depuis Dashboard > Manage Jenkins > Manage Plugins > Available > Docker
 
 Vous devez également avoir créé un compte sur dockerhub et avoir créé un repository ainsi que généré un token d'accès et le stocker dans Jenkins dans Dashboard > Manage Jenkins > Credentials > System > Global credentials sous l'ID `docker-hub`
 
